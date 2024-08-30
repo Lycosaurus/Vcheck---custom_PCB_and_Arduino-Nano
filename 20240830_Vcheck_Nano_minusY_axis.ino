@@ -1,4 +1,4 @@
-/*    **********************************  NANO R3  ..... WORKS! ZERO WEIGHTS correction ...  August 30, 2024 altered by AF ******************************************
+/*    **********************************  NANO R3  .....   August 30, 2024 altered by AF ******************************************
  *     ******** ADXL335 -y axis, SM312LVMHS active low. Check for orientation (requires upside down sensor with these settings) *****
  *                     **** Comments have been altered to reflect use of an optical trigger (e.g. Banner SM312LVMHS) ********
  *
