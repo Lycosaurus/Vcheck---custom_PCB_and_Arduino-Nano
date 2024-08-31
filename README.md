@@ -2,7 +2,7 @@ Arduino based Dynamic Propeller Balancer
 
 ![20240819_144329679_iOS](https://github.com/user-attachments/assets/2c6d5ccd-019a-46fb-a037-84069db2270d)
 
-This is a full blown features implementation of a propeller balancer. The software was developed by Peter Ashwwod-Smith.
+This is a full blown features implementation of a propeller balancer. The software was originally developed by Peter Ashwwod-Smith. Minor modifications were applied.
 
 Pleas Note: This project is NOT COMPLETE YET. DO NOT USE. 
 
@@ -16,7 +16,7 @@ Features
 - The main Signal Process Unit (SPU) PCB is housed in a thermoplastic enclosure that houses the connectors/switches, batteries (4AA, 1x9V, or 2x9V), as well as a window for the 16x2 LCD display.
 - The processor is a Arduino Nano, which can be upgraded to an Arduion Nano Every, as the SPU is socketed to accept either of these two devices.
 - Calibration amplitude and angle calibration can be performed by the user
-- This is a DIY project, where you build and maintain/calibrate your unit. You have access to the full schematics, component BOM and software.
+- This is a DIY project, where you build and maintain/calibrate your unit. You will have access to the full schematics, component BOM and software.
 
 
 
