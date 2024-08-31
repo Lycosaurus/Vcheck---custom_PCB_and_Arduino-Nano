@@ -1,8 +1,15 @@
 This is a full blown features implementation of a propeller balancer. The software was developed by Peter Ashwwod-Smith.
 
-Pleas Note: This project is NOT COMPLETE. DO NOT USE. It is a work in progress, and documents are being uploaded and corrected. A PCB respin is planned to cleanup footprint and other errors. Please stay tuned.
+Pleas Note: This project is NOT COMPLETE YET. DO NOT USE. It is a work in progress, and documents are being uploaded and corrected. A PCB respin is planned to cleanup footprint and other errors. Please stay tuned.
 
 Features
 - Operating voltage from 4V to 15V. 4xAA, 1x9V, 2x9V, 5V USB, 14V automotive/external
 - There is a boost supply for voltages lower than 10.5V to provide adequate voltage to the LED strobe sensor.
-- Dynamic Propeller Balancing. The unit will determine
+- Dynamic Propeller Balancing. The unit will determine the angle where the heavy weight is detected, and provide an inch per second value to quantify the vibration. The user will use this information to corrent this imbalance by attaching a correction weight 180 degrees away from this number.
+- The main Signal Process Unit (SPU) PCB is housed in a thermoplastic enclosure that houses the connectors/switches, batteries (4AA, 1x9V, or 2x9V), as well as a window for the 16x2 LCD display.
+- The processor is a Arduino Nano, which can be upgraded to an Arduion Nano Every, as the SPU is socketed to accept either of these two devices.
+- Calibration amplitude and angle calibration can be performed by the user
+- This is a DIY project, where you build and maintain/calibrate your unit. You have access to the full schematics, component BOM and software.
+- A Acceleration Sensing Unit (ASU) is also provided as a PCB for ease of assembly/housing into a small aluminum flahslight case.
+- The ASU contains an ADXL335 analog acceleration sensor, where all 3 axes are sent to the SPU. The SPU is able to accept to ASU units, and based on solder jumpers (0 Ohm resistors) can be configured to accept any 2 of the 6 axes presented. The two axes are processed individually by the Arduino in a ping pong fashion (e.g. 1 second axis Y, 1 second asis X).
+- Full tesitn is not complete, however we feel that 4AA batteries can last up to 19 hours of continuous operation (when using the boost converter).
