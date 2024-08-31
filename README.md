@@ -2,9 +2,9 @@
 
 This is a full blown features implementation of a propeller balancer. The software was developed by Peter Ashwwod-Smith.
 
-Pleas Note: This project is NOT COMPLETE YET. DO NOT USE. It is a work in progress, and documents are being uploaded and corrected. A PCB respin is planned to cleanup footprint and other errors. Please stay tuned.
+Pleas Note: This project is NOT COMPLETE YET. DO NOT USE. 
 
-
+It is a work in progress, and documents are being uploaded and corrected. A PCB respin is planned to cleanup footprint and other errors. Please stay tuned.
 
 Features
 
@@ -15,10 +15,10 @@ Features
 - The processor is a Arduino Nano, which can be upgraded to an Arduion Nano Every, as the SPU is socketed to accept either of these two devices.
 - Calibration amplitude and angle calibration can be performed by the user
 - This is a DIY project, where you build and maintain/calibrate your unit. You have access to the full schematics, component BOM and software.
-- 
+
 ![20230409_180944561_iOS](https://github.com/user-attachments/assets/24d1ace0-8fb7-4565-a19e-d04c3eeba43f)
 
-  Acceleration Sensing Unit (ASU)
+Acceleration Sensing Unit (ASU)
   
 - An Acceleration Sensing Unit (ASU) is also provided as a PCB for ease of assembly/housing into a small aluminum flahslight case.
 - The ASU contains an ADXL335 analog acceleration sensor, where all 3 axes are sent to the SPU. The SPU is able to accept to ASU units, and based on solder jumpers (0 Ohm resistors) can be configured to accept any 2 of the 6 axes presented. The two axes are processed individually by the Arduino in a ping pong fashion (e.g. 1 second axis Y, 1 second asis X).
