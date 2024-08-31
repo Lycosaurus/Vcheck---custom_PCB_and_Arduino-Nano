@@ -17,12 +17,16 @@ Features
 ![20230409_180944561_iOS](https://github.com/user-attachments/assets/24d1ace0-8fb7-4565-a19e-d04c3eeba43f)
 
   Acceleration Sensing Unit (ASU)
+  
 - An Acceleration Sensing Unit (ASU) is also provided as a PCB for ease of assembly/housing into a small aluminum flahslight case.
 - The ASU contains an ADXL335 analog acceleration sensor, where all 3 axes are sent to the SPU. The SPU is able to accept to ASU units, and based on solder jumpers (0 Ohm resistors) can be configured to accept any 2 of the 6 axes presented. The two axes are processed individually by the Arduino in a ping pong fashion (e.g. 1 second axis Y, 1 second asis X).
 - Full testing is not complete, however preliminary results lead us to believe that 4xAA batteries will last up to 19 hours in continuous operation (including using the boost converter).
 
-LED trigger sensor
+
 ![Vcheck Mosaic](https://github.com/user-attachments/assets/816c710b-a543-4b29-b071-321f13cf6c08)
+
+LED trigger sensor
+
 The LED sensor determines the reference 0 degree angle of the motor/propeller. The unit is pointed to the back of the propeller using a retroflective tape as a target. This sensor produces a digital active low signal when the 0 degree mark is encountered. Presently this off-the-shelf sensor is fairly expensive at a cost of $200US (with 10m cable). An alternative and lower cost sensor design is being tested. More to come.
 
 
