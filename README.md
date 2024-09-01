@@ -20,7 +20,7 @@ Features
 
 
 
-![20230409_180944561_iOS](https://github.com/user-attachments/assets/24d1ace0-8fb7-4565-a19e-d04c3eeba43f)
+![image](https://github.com/user-attachments/assets/15c27c24-ae22-4929-9cd0-cd7ce358f57c)
 
 Acceleration Sensing Unit (ASU)
   
