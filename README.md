@@ -4,7 +4,7 @@ Arduino based Dynamic Propeller Balancer
 
 This is a full blown features implementation of a propeller balancer on an Arduino Uno. The software was originally developed by Peter Ashwood-Smith  -  https://github.com/peterashwoodsmith
 
-  Septmber 1, 2024  Please Note: This project is NOT COMPLETE YET. DO NOT USE. 
+  September 1, 2024  Please Note: This project is NOT COMPLETE YET. DO NOT USE. 
 
   It is a work in progress, and documents are being uploaded and corrected. A PCB respin is planned to cleanup footprint and other errors. Please stay tuned.
 
